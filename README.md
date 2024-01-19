@@ -1,7 +1,7 @@
-;;; ITS3 yield estimates by Monte Carlo
+;;; Sensor yield estimates by Monte Carlo
 
 ;; This program executes Monte Carlo experiments to model, simulate and analyse the
-;; distributions of good and faulty tiles counts for the wafers of the ITS3 sensor.
+;; distributions of good and faulty tiles counts for the wafers of a sensor.
 ;;
 ;; Segments yield maps are represented as list of integers (0 or 1) representing
 ;; faulty or good tiles.
