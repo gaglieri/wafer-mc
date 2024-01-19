@@ -26,20 +26,20 @@
 
 (require math/distributions)
 
-
-(module+ main
-  (run-experiment 20 0.015 0.01)
-  (run-experiment 20 0.015 0.015)
-  (run-experiment 20 0.015 0.02)
-  (run-experiment 20 0.020 0.02))
-
-
 ; global configuration variables
 (define tiles-per-segment 144)
 (define segments-per-wafer 5)
 (define segments-per-hl2 5)
 (define segments-per-hl1 4)
 (define segments-per-hl0 3)
+
+
+; Entry point of script execution
+(module+ main
+  (run-experiment 20 0.015 0.01)
+  (run-experiment 20 0.015 0.015)
+  (run-experiment 20 0.015 0.02)
+  (run-experiment 20 0.020 0.02))
 
 
 ; run and print a configurable wafer yield experiment
